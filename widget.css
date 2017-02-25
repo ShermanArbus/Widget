@@ -1,5 +1,9 @@
 /* yellow text in the "Our Widgets" section is bootstrap alert */
 /* The button for the order form
 matches the "order" button in the top banner area */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+header {
+  background-color: #000000;
+  color: #ffffff; }
 
 /*# sourceMappingURL=widget.css.map */
