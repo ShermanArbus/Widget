@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="widget.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="widget.css">
     <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1">
 
     <title>Widget Co</title>
@@ -26,7 +25,7 @@
       <p >We have the best widgets. They're amazing. You'll love them.</p>
       <button type="submit" class="btn btn-success">Place Your Order Now!</button>
     </main>
-    <main class="teamBox">
+    <main class=" container teamBox">
         <h1>Leading Producer of Widgets</h1>
         <p>In a beautiful world. I'll dress like your niece. It wears her out.
           Couldn't look you in the eye. Self defense. (1409607566242). That she
@@ -41,93 +40,84 @@
 <!-- insert container - 2 x 3 grid -->
         <section class="container">
 
-          <img class="col-xs-4"src="http://www.fillmurray.com/100/100">
-          <img class="col-xs-4"src="http://www.fillmurray.com/100/100">
-          <img class="col-xs-4"src="http://www.fillmurray.com/100/100">
-          <img class="col-xs-4"src="http://www.fillmurray.com/100/100">
-          <img class="col-xs-4"src="http://www.fillmurray.com/100/100">
-          <img class="col-xs-4"src="http://www.fillmurray.com/100/100">
+          <img class="col-xs-4"src="http://www.fillmurray.com/300/300">
+          <img class="col-xs-4"src="http://www.fillmurray.com/300/300">
+          <img class="col-xs-4"src="http://www.fillmurray.com/300/300">
+          <img class="col-xs-4"src="http://www.fillmurray.com/300/300">
+          <img class="col-xs-4"src="http://www.fillmurray.com/300/300">
+          <img class="col-xs-4"src="http://www.fillmurray.com/300/300">
         </section>
 
     </main>
 
-    <main>
-      browse section
+    <main class="container browseWidgets">
       <h1>Our Widgets</h1>
       <p>Below are all of our amazing widgets. You're going to love them. We have the best widgets.
       Be sure to look through all of the widgets and select your favorites.
       Then you can order them using the form below.</p>
-      <p class="bg-warning">New widgets being added all the time!</p>
+      <p class="alert alert-warning" role="alert">New widgets being added all the time!</p>
       <nav aria-label="Page navigation">
-  <ul class="pagination">
-    <li>
-      <a href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-      </a>
-    </li>
-    <li><a href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li>
-      <a href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-      </a>
-    </li>
-  </ul>
-</nav>
+          <ul class="pagination">
+          <li>
+            <a href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </main>
 
-<main class="container order">
-  form 1
-  <form class="widgetSelect" action="http://requestb.in/1jx38qm1" method="post">
-    <section class="form-group">
-      <!-- this section seems unnecessary but I don't know where to put the class
-      because the bootstrap example has it on a div and not the form tag. -->
-    <select class="form-control">
-      <option>Awesome Widget</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-    <label for="widgetQuantity">Quantity
-      <input type="value" class="form-control"name="widgetQuantity"
-      id="widgetQuantity" placeholder="0">
-    </label>
-    <p class="form-control-static">"Gift Wrap?</p>
-    <label for="giftWrap">Yes
-      <input class="radio-inline form-control" type="radio" name="giftWrap" id="Yes">
-    </label>
-    <label for="giftWrap">No
-      <input class="radio-inline form-control"type="radio" name="giftWrap" id="No">
-  </label>
-</section>
-
-  </form>
+  <main class="container order">
+    form 1
+    <form class="form-group widgetSelect" action="http://requestb.in/1jx38qm1" method="post">
+      <select class="form-control">
+        <option>Awesome Widget</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+      <label for="widgetQuantity">Quantity
+        <input type="value" class="form-control"name="widgetQuantity"
+        id="widgetQuantity" placeholder="0">
+      </label>
+      <p class="form-control-static">"Gift Wrap?</p>
+      <label for="giftWrap">Yes
+        <input class="radio-inline form-control" type="radio" name="giftWrap" id="Yes">
+      </label>
+      <label for="giftWrap">No
+        <input class="radio-inline form-control"type="radio" name="giftWrap" id="No">
+      </label>
+    </form>
 
 
-  form 2
-  <form class="paymentInfo" action="http://requestb.in/1jx38qm1" method="post">
-    <section class="form-group">
-
-  <label for="fullName">Full Name
-      <input type="text" class="form-control"name="fullName" id="fullName" required>
+    form 2
+    <form class="form-group paymentInfo" action="http://requestb.in/1jx38qm1" method="post">
+    <label for="fullName">Full Name
+        <input type="text" class="form-control"name="fullName" id="fullName" required>
     </label>
     <label for="email">Email
       <input type="email" class="form-control"name="email" id="email"></label>
       <label for="ccNumber">Credit Card Number
         <input type="value" class="form-control" name="ccNumber"
-        id="ccNumber" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+          id="ccNumber" placeholder="xxxx-xxxx-xxxx-xxxx" required>
       </label>
       <label for="expDate">Expiration Date
-      <input type="month" class="form-control" name="expDate" id="expDate">
+        <input type="month" class="form-control" name="expDate" id="expDate">
       </label>
-    </section>
-  </form>
+    </form>
 
-  <button class="btn btn-success">Confirm Order</button>
-</main>
+    <button class="btn btn-success">Confirm Order</button>
+  </main>
 
   </body>
 </html>

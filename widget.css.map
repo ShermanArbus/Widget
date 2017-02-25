@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAWA,iEAAiE;AASjE;oDACoD;AClB5C,0FAAkF;ACH1F,MAAO;EACL,gBAAgB,EFAP,OAAO;EEChB,KAAK,EFAM,OAAO;;AGFpB,UAAW;EACT,gBAAgB,EAAE,iCAAiC",
-"sources": ["variables.scss","main.scss","header.scss","titleImage.scss"],
+"mappings": "AAWA,iEAAiE;AASjE;oDACoD;AClB5C,0FAAkF;ACH1F,MAAO;EACL,gBAAgB,EFAP,OAAO;EEChB,KAAK,EFAM,OAAO;;AGFpB,UAAW;EACT,gBAAgB,EAAE,iCAAiC;EACnD,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM;;ACHpB,QAAS;EACP,UAAU,EAAE,MAAM;;ACDnB,cAAe;EACd,gBAAgB,ELQH,OAAO;EKPpB,UAAU,EAAE,MAAM",
+"sources": ["variables.scss","main.scss","header.scss","titleImage.scss","team.scss","browse.scss"],
 "names": [],
 "file": "widget.css"
 }

@@ -7,6 +7,15 @@ header {
   color: #ffffff; }
 
 .jumbotron {
-  background-image: url(182d5ca6-black-geometric.jpg); }
+  background-image: url(182d5ca6-black-geometric.jpg);
+  color: white;
+  text-align: center; }
+
+.teamBox {
+  text-align: center; }
+
+.browseWidgets {
+  background-color: #d9edf7;
+  text-align: center; }
 
 /*# sourceMappingURL=widget.css.map */
