@@ -76,31 +76,33 @@
       </nav>
     </main>
 
-  <main class="container order">
-    form 1
-    <form class="form-group widgetSelect" action="http://requestb.in/1jx38qm1" method="post">
-      <select class="form-control">
-        <option>Awesome Widget</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
-      <label for="widgetQuantity">Quantity
-        <input type="value" class="form-control"name="widgetQuantity"
-        id="widgetQuantity" placeholder="0">
-      </label>
-      <p class="form-control-static">"Gift Wrap?</p>
-      <label for="giftWrap">Yes
-        <input class="radio-inline form-control" type="radio" name="giftWrap" id="Yes">
-      </label>
-      <label for="giftWrap">No
-        <input class="radio-inline form-control"type="radio" name="giftWrap" id="No">
-      </label>
-    </form>
+  <main class="container order panel panel-primary">
+    <section class="panel-heading">Item Details</section>
+    <section class="panel-body"
+      <form class="form-group widgetSelect" action="http://requestb.in/1jx38qm1" method="post">
+        <select class="form-control">
+          <option>Awesome Widget</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+        <label for="widgetQuantity">Quantity
+          <input type="value" class="form-control"name="widgetQuantity"
+          id="widgetQuantity" placeholder="0">
+        </label>
+        <p class="form-control-static">Gift Wrap?</p>
+        <label for="giftWrap">Yes
+          <input class="radio-inline form-control" type="radio" name="giftWrap" id="Yes">
+        </label>
+        <label for="giftWrap">No
+          <input class="radio-inline form-control"type="radio" name="giftWrap" id="No">
+        </label>
+      </form>
+    </section>
 
 
-    form 2
+    <!-- form 2
     <form class="form-group paymentInfo" action="http://requestb.in/1jx38qm1" method="post">
     <label for="fullName">Full Name
         <input type="text" class="form-control"name="fullName" id="fullName" required>
@@ -117,7 +119,7 @@
     </form>
 
     <button class="btn btn-success">Confirm Order</button>
-  </main>
+  </main> -->
 
   </body>
 </html>
