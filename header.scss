@@ -1,5 +1,16 @@
-header {
+.topNavHeader {
   background-color: $topNavBg;
   color: $topNavText;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  h1 {
+    margin: 0;
+    padding: .25em .25em .5em .25em;
+  }
+  a {
+    color: $topNavText;
+    text-decoration: none;
+
+  }
 }

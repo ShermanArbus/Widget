@@ -2,9 +2,18 @@
 /* The button for the order form
 matches the "order" button in the top banner area */
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-header {
+.topNavHeader {
   background-color: #000000;
-  color: #ffffff; }
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .topNavHeader h1 {
+    margin: 0;
+    padding: .25em .25em .5em .25em; }
+  .topNavHeader a {
+    color: #ffffff;
+    text-decoration: none; }
 
 .jumbotron {
   background-image: url(182d5ca6-black-geometric.jpg);
