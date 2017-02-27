@@ -50,4 +50,9 @@ matches the "order" button in the top banner area */
     .order .orderForm .panel-heading {
       text-align: center; }
 
+.goToTop {
+  display: block;
+  text-align: right;
+  color: #337ab7; }
+
 /*# sourceMappingURL=widget.css.map */
