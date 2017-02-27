@@ -2,4 +2,7 @@
   display: block;
   text-align: right;
   color: $navLink;
+   a {
+     color: $navLink;
+   }
 }

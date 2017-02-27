@@ -54,5 +54,7 @@ matches the "order" button in the top banner area */
   display: block;
   text-align: right;
   color: #337ab7; }
+  .goToTop a {
+    color: #337ab7; }
 
 /*# sourceMappingURL=widget.css.map */
