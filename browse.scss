@@ -1,4 +1,17 @@
  .browseWidgets {
   background-color: $ourWidgetsBg;
   text-align: center;
+  h1 {
+    font-size: 5em;
+    position: relative;
+  }
+  a {
+    color: black;
+  }
+  span.badge {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    background-color: $widBadgeBg;
+  }
 }

@@ -29,6 +29,16 @@ matches the "order" button in the top banner area */
 .browseWidgets {
   background-color: #d9edf7;
   text-align: center; }
+  .browseWidgets h1 {
+    font-size: 5em;
+    position: relative; }
+  .browseWidgets a {
+    color: black; }
+  .browseWidgets span.badge {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    background-color: #337ab7; }
 
 .order {
   background-color: #ffddcc; }
