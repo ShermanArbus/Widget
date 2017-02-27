@@ -31,9 +31,13 @@ matches the "order" button in the top banner area */
   text-align: center; }
 
 .order {
-  padding: 0em;
-  margin: 1em; }
-  .order .panel-heading {
+  background-color: #ffddcc; }
+  .order h1 {
     text-align: center; }
+  .order .orderForm {
+    padding: 0em;
+    margin: 1em; }
+    .order .orderForm .panel-heading {
+      text-align: center; }
 
 /*# sourceMappingURL=widget.css.map */

@@ -37,7 +37,6 @@
           rubber plant. Present tense. I'm a weirdo. This is a low flying panic
           attack. In the fake plastic earth. Your skin makes me cry. Cheer at the gallows</p>
         <h2>Meet the Team</h2>
-<!-- insert container - 2 x 3 grid -->
         <section class="container">
 
           <img class="col-xs-4"src="http://www.fillmurray.com/300/300">
@@ -56,6 +55,13 @@
       Be sure to look through all of the widgets and select your favorites.
       Then you can order them using the form below.</p>
       <p class="alert alert-warning" role="alert">New widgets being added all the time!</p>
+      <section class="container widgetIcons">
+        <a href="#" class="glyphicon glyphicon-grain col-xs-2"><span class="badge">42</span></a>
+
+      </section>
+
+
+
       <nav aria-label="Page navigation">
           <ul class="pagination">
           <li>
@@ -75,51 +81,55 @@
         </ul>
       </nav>
     </main>
+    <main class="container order">
+      <h1>Place Your Order</h1>
+      <aside class="container orderForm panel panel-primary">
+        <section class="panel-heading">Item Details</section>
+        <section class="panel-body form-horizontal"
+          <form class="form-group widgetSelect" action="http://requestb.in/1jx38qm1" method="post">
+            <label for="widgetSelect" class="form-control">Item Select</label>
+              <select for="widgetSelect">
+                <option name="widgetSelect" id="widget1">Awesome Widget</option>
+                <option name="widgetSelect" id="widget2">Awesome Widget #2</option>
+                <option name="widgetSelect" id="widget3">Awesome Widget #3</option>
+                <option name="widgetSelect" id="widget4">Awesome Widget #4</option>
+                <option name="widgetSelect" id="widget5">Awesome Widget #5</option>
+              </select>
+            <label for="widgetQuantity">Quantity
+              <input type="value" class="form-control"name="widgetQuantity"
+              id="widgetQuantity" placeholder="0">
+            </label>
+            <p class="form-control-static">Gift Wrap?</p>
+            <label for="giftWrap">Yes
+              <input class="radio-inline form-control" type="radio" name="giftWrap" id="Yes">
+            </label>
+            <label for="giftWrap">No
+              <input class="radio-inline form-control"type="radio" name="giftWrap" id="No">
+            </label>
+          </form>
+        </section>
+      </aside>
+      <aside class="container orderForm panel panel-primary">
 
-  <main class="container order panel panel-primary">
-    <section class="panel-heading">Item Details</section>
-    <section class="panel-body"
-      <form class="form-group widgetSelect" action="http://requestb.in/1jx38qm1" method="post">
-        <label for="widgetSelect"></label><select class="form-control">
-          <option name="widgetSelect" id="widget1">Awesome Widget</option>
-          <option name="widgetSelect" id="widget2">Awesome Widget #2</option>
-          <option name="widgetSelect" id="widget3">Awesome Widget #3</option>
-          <option name="widgetSelect" id="widget4">Awesome Widget #4</option>
-          <option name="widgetSelect" id="widget5">Awesome Widget #5</option>
-        </select>
-        <label for="widgetQuantity">Quantity
-          <input type="value" class="form-control"name="widgetQuantity"
-          id="widgetQuantity" placeholder="0">
-        </label>
-        <p class="form-control-static">Gift Wrap?</p>
-        <label for="giftWrap">Yes
-          <input class="radio-inline form-control" type="radio" name="giftWrap" id="Yes">
-        </label>
-        <label for="giftWrap">No
-          <input class="radio-inline form-control"type="radio" name="giftWrap" id="No">
-        </label>
-      </form>
-    </section>
-
-
-    <!-- form 2
-    <form class="form-group paymentInfo" action="http://requestb.in/1jx38qm1" method="post">
-    <label for="fullName">Full Name
-        <input type="text" class="form-control"name="fullName" id="fullName" required>
-    </label>
-    <label for="email">Email
-      <input type="email" class="form-control"name="email" id="email"></label>
-      <label for="ccNumber">Credit Card Number
-        <input type="value" class="form-control" name="ccNumber"
-          id="ccNumber" placeholder="xxxx-xxxx-xxxx-xxxx" required>
-      </label>
-      <label for="expDate">Expiration Date
-        <input type="month" class="form-control" name="expDate" id="expDate">
-      </label>
-    </form>
-
-    <button class="btn btn-success">Confirm Order</button>
-  </main> -->
-
+        <section class="panel-heading">Your Info</section>
+        <section class="panel-body form-horizontal">
+          <form class="form-group paymentInfo" action="http://requestb.in/1jx38qm1" method="post">
+          <label for="fullName" class="col-xs-3 control-label">Full Name
+              <input type="text" class="form-control col-xs-9"name="fullName" id="fullName" required>
+          </label>
+          <label for="email" class="col-xs-3">Email
+            <input type="email" class="form-control col-xs-9"name="email" id="email"></label>
+            <label for="ccNumber">Credit Card Number
+              <input type="value" class="form-control" name="ccNumber"
+                id="ccNumber" placeholder="xxxx-xxxx-xxxx-xxxx" required>
+            </label>
+            <label for="expDate">Expiration Date
+              <input type="month" class="form-control" name="expDate" id="expDate">
+            </label>
+          </form>
+        </section>
+      </aside>
+      <button class="col-xs-2 col-xs-offset-5 confirm btn btn-success">Confirm Order</button>
+    </main>
   </body>
 </html>
